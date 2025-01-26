@@ -16,10 +16,9 @@ git commit -m "Initial commit: 0x4d2 website"
 git branch -M main
 
 # Add GitHub remote (replace YOUR_USERNAME with your GitHub username)
-git remote add origin git@github.com:0x-Dee-Bugger/0x4d2-website.git
+git remote add origin git@github.com:0x44dd22/0x4d2-website.git
 
 # Push to GitHub
-git push -u origin main
 GIT_SSH_COMMAND="ssh -i ~/.ssh/ed25519_dee_bugger" git push origin main
 
 # Configure GitHub Pages
@@ -45,4 +44,4 @@ GIT_SSH_COMMAND="ssh -i ~/.ssh/ed25519_dee_bugger" git push origin main
 #    185.199.111.153
 # 2. Add CNAME record:
 #    Host: www
-#    Value: YOUR_USERNAME.github.io
+#    Value: 0x44dd22.github.io
