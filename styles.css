@@ -108,6 +108,12 @@ main {
     color: var(--secondary);
 }
 
+.hero-image {
+    background: var(--light);
+    padding: 2rem;
+    border-radius: 20px;
+}
+
 .hero-image img {
     width: 100%;
     height: auto;
@@ -365,6 +371,9 @@ footer {
 .error-image {
     max-width: 500px;
     margin: 2rem auto 3rem;
+    background: var(--light);
+    padding: 2rem;
+    border-radius: 20px;
 }
 
 .error-image img {
@@ -437,6 +446,12 @@ footer {
 .feature p {
     font-size: 1.1rem;
     margin-bottom: 0;
+}
+
+.product-image {
+    background: var(--light);
+    padding: 2rem;
+    border-radius: 20px;
 }
 
 .product-image img {

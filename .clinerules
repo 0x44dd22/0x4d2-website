@@ -43,7 +43,7 @@ Use the image: `undraw_page-not-found_6wni.svg` for any 404 page not founds.
 
 ## TODO
 
-1. Fix the background color of the logo.svg. It should match the app bar background color: #40514e.
+1. For all the places using an undraw image, change the background color to the `light` style defined in stlyes.css. 
 
 ## Cline Plan (Cpoied from Cline UI Window)
 
