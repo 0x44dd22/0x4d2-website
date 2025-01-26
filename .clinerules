@@ -1,0 +1,140 @@
+## Technical Context
+
+0x4d2 is a bare bones website built in pure html and css and deployed to github pages. The development environment is macOS using the VS Code IDE. 
+
+JS could be used if needed for responsiveness, but no JS would be preferred.
+
+The background color should be rgb(64,81,78). 
+
+The logo is in `static/logo.svg` and this should be used for the favicon and any graphical needs in the main html page. There is a fall back png version of the logo if needed.
+
+The file `static/robots.txt` should be used to prevent scraping from search engines as we do not want this site to necessarily have much attention.
+
+The site will be hosted on github pages at 0x4d2.com after I setp DNS on our webhosting provider Namecheap.
+
+Sample pages that should be used for inspiration are found in the `inspiration` folder.
+
+You can use the files in `static` and move the to wherever you want.
+
+The site will list our current products. We don't have any yet, so just put two placholders for now: abdc.com and xyz.com
+
+There needs to be 3 links to 3 pages: Terms and Conditions and Privacy Policy and Refund and dispute policy. Put some generic text in those files. The policy files need to cover all products listed above. The products are all Saas websites that people sign up for with a monthly subscript and pay via Stripe.
+
+Use the image: `undraw_page-not-found_6wni.svg` for any 404 page not founds.
+
+
+## Website Design Elements
+
+* The contact info should appear somewhere and link to email address: hello@0x4d2.com as well as our phone number at +1 (833) 856-2733.
+* color pallet is: #40514e, #e4f9f5, #576d69, #293533, #ffffff, #baf0e6
+* The font to use is at `static/lineto-circular-bookitalic.woff2`(It is free for commercial and personal use: https://www.freefonts.io/circular-book-font/)
+* Should be responisive, looking good on desktop and smart phones
+* Explore ideas with a gradient background, maybe with some abstract overlayed elements towards the bottom of the page
+* I want a header app bar on the site. Upper left should be our logo around 80x80 px in size followed by the company name: 0x4d2, both clickable and go to the root of the site 
+* Maybe the Terms and Conditions and Privacy Policy and Refund and dispute policy should be in a footer, stickied to the bottom of the window. 
+* The company name, the company'y project/product list should be in the middle as we as a buoon to contact us. Use one of the undraw images in the center of the page as well. 
+* On the contact page, use the image: `dee_bugger_avatar.png`. And make our email address and phone number visible.
+* Make placeholder pages for the two projects: abdc.com and xyz.com
+
+## Already Completed
+
+1. Website has been built including: 404.html, abcd.html, contact.html, index.html, privacy.html, refund.html, robots.txt, styles.css, terms.html, xyz.html
+1. used `browser_action` tool to check the layout, responsiveness, and functionality of the site.
+
+## TODO
+
+1. Fix the background color of the logo.svg. It should match the app bar background color: #40514e.
+
+## Cline Plan (Cpoied from Cline UI Window)
+
+Project Setup and Structure
+
+Create basic directory structure for the website
+Set up GitHub repository for GitHub Pages deployment
+Configure .gitignore file
+Organize static assets in appropriate directories
+Core Website Development
+a. HTML Structure
+
+Create index.html with modern landing page layout
+Header with logo (80x80px) and company name in upper left
+Clean, minimal navigation in header
+Center-aligned main content section
+Sticky footer with policy links
+Set up 404.html with undraw_page-not-found_6wni.svg
+b. CSS Implementation
+
+Create styles.css with provided color palette (#40514e, #e4f9f5, #576d69, #293533, #ffffff, #baf0e6)
+Import lineto-circular-bookitalic.woff2 font
+Implement gradient background transitions:
+Main gradient from #40514e to #e4f9f5
+Secondary accents using #576d69 and #baf0e6
+Add curved shape overlays inspired by the landing page examples
+Create wave-like bottom decoration similar to the Landeux template
+Style components:
+Clean, minimal header with transparent background
+Centered content with large typography
+Modern button styles with hover effects
+Responsive grid for product cards
+Sticky footer with subtle background
+
+c. Page Layouts
+
+Homepage:
+Hero section with company name and brief description
+Featured products section (abdc.com and xyz.com)
+Contact button leading to contact page
+Undraw illustration (undraw_static-website_x3tn.svg) for visual appeal
+Product Pages (abdc.com and xyz.com):
+Clean, minimal design
+Product description and features
+Call-to-action buttons
+Undraw illustrations for visual interest
+Contact Page:
+dee_bugger_avatar.png as main visual
+Prominent display of contact info:
+hello@0x4d2.com
++1 (833) 856-2733
+Clean, centered layout
+Policy Pages:
+Terms and Conditions
+Privacy Policy
+Refund and Dispute Policy
+Consistent styling with main site
+Clear typography for readability
+Responsive Design Implementation
+
+Mobile-first approach
+Breakpoints:
+Mobile: 320px - 767px
+Tablet: 768px - 1023px
+Desktop: 1024px+
+Flexible grid system
+Responsive typography
+Adaptive navigation menu
+Optimized images for different screen sizes
+
+Asset Integration and Optimization
+
+Convert logo.svg to favicon
+Optimize all images for web
+Implement robots.txt:
+User-agent: *
+Disallow: /
+Set up proper image alt texts
+Ensure font loading optimization
+GitHub Pages and DNS Setup
+
+Enable GitHub Pages
+Configure custom domain
+Set up Namecheap DNS:
+A records for GitHub Pages IPs
+CNAME for www subdomain
+Verify HTTPS setup
+Testing and Launch
+
+Cross-browser testing
+Mobile responsiveness verification
+Performance optimization
+Link checking
+Final deployment
