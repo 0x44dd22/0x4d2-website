@@ -50,6 +50,12 @@ To run the site locally, simply open any HTML file in a web browser:
 open index.html
 ```
 
+To run with Python via a simple server:
+```bash
+./serve.sh
+```
+
 ## License
 
 All rights reserved © 2025 0x4d2
+

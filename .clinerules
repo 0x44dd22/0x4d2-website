@@ -40,101 +40,10 @@ Use the image: `undraw_page-not-found_6wni.svg` for any 404 page not founds.
 
 1. Website has been built including: 404.html, abcd.html, contact.html, index.html, privacy.html, refund.html, robots.txt, styles.css, terms.html, xyz.html
 1. used `browser_action` tool to check the layout, responsiveness, and functionality of the site.
+1. For all the places using an undraw image, change the background color to the `light` style defined in stlyes.css. 
 
 ## TODO
 
-1. For all the places using an undraw image, change the background color to the `light` style defined in stlyes.css. 
 
-## Cline Plan (Cpoied from Cline UI Window)
-
-Project Setup and Structure
-
-Create basic directory structure for the website
-Set up GitHub repository for GitHub Pages deployment
-Configure .gitignore file
-Organize static assets in appropriate directories
-Core Website Development
-a. HTML Structure
-
-Create index.html with modern landing page layout
-Header with logo (80x80px) and company name in upper left
-Clean, minimal navigation in header
-Center-aligned main content section
-Sticky footer with policy links
-Set up 404.html with undraw_page-not-found_6wni.svg
-b. CSS Implementation
-
-Create styles.css with provided color palette (#40514e, #e4f9f5, #576d69, #293533, #ffffff, #baf0e6)
-Import lineto-circular-bookitalic.woff2 font
-Implement gradient background transitions:
-Main gradient from #40514e to #e4f9f5
-Secondary accents using #576d69 and #baf0e6
-Add curved shape overlays inspired by the landing page examples
-Create wave-like bottom decoration similar to the Landeux template
-Style components:
-Clean, minimal header with transparent background
-Centered content with large typography
-Modern button styles with hover effects
-Responsive grid for product cards
-Sticky footer with subtle background
-
-c. Page Layouts
-
-Homepage:
-Hero section with company name and brief description
-Featured products section (abdc.com and xyz.com)
-Contact button leading to contact page
-Undraw illustration (undraw_static-website_x3tn.svg) for visual appeal
-Product Pages (abdc.com and xyz.com):
-Clean, minimal design
-Product description and features
-Call-to-action buttons
-Undraw illustrations for visual interest
-Contact Page:
-dee_bugger_avatar.png as main visual
-Prominent display of contact info:
-hello@0x4d2.com
-+1 (833) 856-2733
-Clean, centered layout
-Policy Pages:
-Terms and Conditions
-Privacy Policy
-Refund and Dispute Policy
-Consistent styling with main site
-Clear typography for readability
-Responsive Design Implementation
-
-Mobile-first approach
-Breakpoints:
-Mobile: 320px - 767px
-Tablet: 768px - 1023px
-Desktop: 1024px+
-Flexible grid system
-Responsive typography
-Adaptive navigation menu
-Optimized images for different screen sizes
-
-Asset Integration and Optimization
-
-Convert logo.svg to favicon
-Optimize all images for web
-Implement robots.txt:
-User-agent: *
-Disallow: /
-Set up proper image alt texts
-Ensure font loading optimization
-GitHub Pages and DNS Setup
-
-Enable GitHub Pages
-Configure custom domain
-Set up Namecheap DNS:
-A records for GitHub Pages IPs
-CNAME for www subdomain
-Verify HTTPS setup
-Testing and Launch
-
-Cross-browser testing
-Mobile responsiveness verification
-Performance optimization
-Link checking
-Final deployment
+1. In `index.html`, we need a subheader under "our products" that says "coming soon". Additionally, we need to chage the ficticious products ABCD and XYZ to "AI-Receptionist" and "Patent Hound" respectively.  In `src/pages/Home.vue` their descriptions should be updated to say "AI-powered phone receptionist service for small businesses" and "Deep Patent Analytics for IP Lawyers"
+1. Update abdc.html and xzy.html file names to ai-recepotionist.html and patenthound.html respectively and redo their text based on the changed topics of "AI-powered phone receptionist service for small businesses" and "Deep Patent Analytics for IP Lawyers" respectively. Just make up the text as best you can. Their websites are at ai-receptionist.xyz and patenthound.xyz  respectively, so link out to those somewhere as well.
