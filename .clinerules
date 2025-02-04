@@ -41,9 +41,9 @@ Use the image: `undraw_page-not-found_6wni.svg` for any 404 page not founds.
 1. Website has been built including: 404.html, abcd.html, contact.html, index.html, privacy.html, refund.html, robots.txt, styles.css, terms.html, xyz.html
 1. used `browser_action` tool to check the layout, responsiveness, and functionality of the site.
 1. For all the places using an undraw image, change the background color to the `light` style defined in stlyes.css. 
+1. In `index.html`, we need a subheader under "our products" that says "coming soon". Additionally, we need to chage the ficticious products ABCD and XYZ to "AI-Receptionist" and "Patent Hound" respectively. In `index.html` their descriptions should be updated to say "AI-powered phone receptionist service for small businesses" and "Deep Patent Analytics for IP Lawyers"
+1. Update abdc.html and xzy.html file names to ai-recepotionist.html and patenthound.html respectively and redo their text based on the changed topics of "AI-powered phone receptionist service for small businesses" and "Deep Patent Analytics for IP Lawyers" respectively. Just make up the text as best you can. Their websites are at ai-receptionist.xyz and patenthound.xyz  respectively, so link out to those somewhere as well.
 
 ## TODO
 
-
-1. In `index.html`, we need a subheader under "our products" that says "coming soon". Additionally, we need to chage the ficticious products ABCD and XYZ to "AI-Receptionist" and "Patent Hound" respectively.  In `src/pages/Home.vue` their descriptions should be updated to say "AI-powered phone receptionist service for small businesses" and "Deep Patent Analytics for IP Lawyers"
-1. Update abdc.html and xzy.html file names to ai-recepotionist.html and patenthound.html respectively and redo their text based on the changed topics of "AI-powered phone receptionist service for small businesses" and "Deep Patent Analytics for IP Lawyers" respectively. Just make up the text as best you can. Their websites are at ai-receptionist.xyz and patenthound.xyz  respectively, so link out to those somewhere as well.
+1.  In `index.html`, "coming soon" should be under "our products", centered on screen.
